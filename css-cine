@@ -1,0 +1,138 @@
+/* ===== Couleurs (reprises de l'ancien TP) ===== */
+:root {
+    --color1: #663c8c;   
+    --color2: #d3d3d3;   
+    --color3: #ffffff;   
+}
+
+body {
+    background-color: var(--color2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#bloc1 {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--color3);
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    text-shadow: 2px 2px 5px #FFF;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 10px 20px 20px;
+}
+
+aside {
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--color1);
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+    overflow: hidden; 
+}
+
+nav li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+
+nav li:last-child {
+    float: right;
+    width: 300px;
+    padding-right: 20px;
+}
+
+nav a {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a > span {
+    visibility: hidden;
+}
+
+nav a:hover > span {
+    visibility: visible;
+}
+
+section {
+    margin: 10px;
+    overflow: hidden; 
+}
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin: 10px 0 15px 0;
+}
+
+section img {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+section p {
+    overflow: hidden; 
+    margin: 0;
+    padding: 10px;
+    border: 2px solid var(--color1);
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+footer {
+    background-color: var(--color1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
