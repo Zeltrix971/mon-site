@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dole Ciné - Nouveau film</title>
+    <link rel="stylesheet" href="../styles/moncss.css">
+</head>
+<body>
+    <div id="bloc1">
+
+        <header>
+            <img src="../images/logoCine.jpg" alt="Logo Dole Ciné">
+            <h1>Dole Ciné</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="nouveau.html"><span>&#9776;</span> Nouveau Film</a></li>
+                <li><a href="page2.html"><span>&#9776;</span> Anciens Films</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Imitation Game</h2>
+                <img src="../images/film1.jpeg" alt="Affiche du film Imitation Game">
+                <p>
+                    Londres, 1940. L'Angleterre est en guerre contre l'Allemagne nazie, dont les forces
+                    occupent une grande partie de l'Europe. Bien qu'ils réussissent à intercepter les
+                    communications de l'armée allemande, les Britanniques sont incapables de déchiffrer
+                    les codes utilisés pour crypter leurs messages grâce à une machine nommée Enigma.
+                    Alan Turing, mathématicien prodige, intègre les rangs d'une équipe de spécialistes
+                    chargée de percer le mystère d'Enigma.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; IUT - SD - Septembre 2024</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dole Ciné - Nouveau film</title>
+    <link rel="stylesheet" href="../styles/moncss.css">
+</head>
+<body>
+    <div id="bloc1">
+
+        <header>
+            <img src="../images/logoCine.jpg" alt="Logo Dole Ciné">
+            <h1>Dole Ciné</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="nouveau.html"><span>&#9776;</span> Nouveau Film</a></li>
+                <li><a href="page2.html"><span>&#9776;</span> Anciens Films</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Oppenheimer</h2>
+                <img src="../images/film2.jpeg" alt="Oppenheimer">
+                <p>
+                    En 1942, convaincus que l'Allemagne nazie est en train de développer une arme nucléaire, les États-Unis initient, dans le plus grand secret, le Projet Manhattan destiné à mettre au point la première bombe atomique de l'histoire. Pour piloter ce dispositif, le gouvernement engage J. Robert Oppenheimer, brillant physicien. C'est dans le laboratoire ultra-secret de Los Alamos, au cœur du désert du Nouveau-Mexique, que le scientifique et son équipe mettent au point cette arme révolutionnaire.
+                </p>
+                <h3>
+                    Une merveilleuse histoire du temps
+                </h3>
+                <img src="../images/film3.jpg" alt="merveilleuse">
+                <p>
+                    Le film narre la première partie de la vie du physicien théoricien Stephen Hawking, sa rencontre avec sa première épouse, Jane, ses premières découvertes, son doctorat et ses succès en physique cosmologiste, et son diagnostic de sclérose latérale amyotrophique, une maladie neurodégénérative touchant les neurones moteurs mais épargnant les fonctions cognitives.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; IUT - SD - Septembre 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dole Ciné | Accueil</title>
+    <link rel="stylesheet" type="text/css" href="./styles/css.css">
+</head>
+<header>
+    <img src="../images/logoCine.jpg" id="logoCine" alt="logo">
+    <aside id="nomEntête">
+        Dole Ciné 
+    </aside>
+
+</header>
+<main>
+    <h1> 
+        Imitation Game
+    </h1>
+</main>
+<body>
+    <img src="../images/film1.jpeg" id="film1" alt="photoFilm">
+    <dirs id="1er">
+         Londres, 1940. L'Angleterre est en guerre contre l'Allemagne nazie, dont les forces occupent une grande partie de l'Europe. Bien qu'ils réussissent à intercepter les communications de l'armée allemande, les Britanniques sont incapables de déchiffrer les codes utilisés pour crypter leurs messages grâce à une machine nommée Enigma. Alan Turing, mathématicien prodige, intègre les rangs d'une équipe de spécialistes chargée de percer le mystère d'Enigma.
+    </dirs>
+</body>
+
